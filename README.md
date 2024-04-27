@@ -1,12 +1,16 @@
-# React + Vite
+## Cambios al trabajar con archivos .tsx
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se puede considerar los cambios de los siguientes
 
-Currently, two official plugins are available:
+1. **Tipado Estático**: Se agregarían tipos estáticos a los props, estado y otros valores en los componentes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Interfaces con tsx**: Se utilizarían interfaces en el tsx de forma de los props lo que ayuda a mantener un código más claro
 
-## Install & Run
-- yarn 
-- yarn dev
+## Como por ejemplo 
+
+```tsx
+interface Product {
+    title: string;
+    description: string;
+    price: number;
+}
