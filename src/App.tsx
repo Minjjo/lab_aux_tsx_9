@@ -1,7 +1,8 @@
+import React from 'react';
 import './App.css';
 import './async/services/getData';
-import { Card } from './ui/components/Card';
-function App() {
+import {Card} from './ui/components/Card';
+const App: React.FC = () => {
 
   return (
     <>
@@ -10,4 +11,5 @@ function App() {
     </>
   )
 }
+
 export default App;
